@@ -33,3 +33,11 @@ $ npm install
 ```bash
 $ npm start
 ```
+
+# Screenshots
+
+## Sign In
+![Sign In](https://raw.githubusercontent.com/DaisukeOtaka/cognito-auth-example/images/images/SignIn.png)
+
+## My Page
+![My Page](https://raw.githubusercontent.com/DaisukeOtaka/cognito-auth-example/images/images/MyPage.png)
