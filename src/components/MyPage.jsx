@@ -121,7 +121,7 @@ class MyPage extends React.Component {
 
       },
       // Template syntax follows url-template https://www.npmjs.com/package/url-template
-      pathTemplate : '/helloLambdaFunction',
+      pathTemplate : '/',
       method : 'GET',
       //If there are any unmodeled query parameters or headers that need to be sent with the request you can add them here
       additionalParams : {
@@ -145,7 +145,7 @@ class MyPage extends React.Component {
     .then(function(result){
       //This is where you would put a success callback
       console.log(result);
-      _this.refs.apiResponse.innerHTML = result.data;
+      _this.refs.apiResponse.innerHTML = result.data.message;
     })
     .catch( function(result){
       //This is where you would put an error callback
